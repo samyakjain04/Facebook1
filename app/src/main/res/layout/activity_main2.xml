@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity2">
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:src="@drawable/avengers"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:id="@+id/avengers_img"
+        ></ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EnterMobileNumber"
+        android:layout_below="@+id/avengers_img"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/Name_EditText"
+        ></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EnterPassword"
+        android:layout_below="@+id/Name_EditText"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/Password_EditText"
+        android:layout_marginTop="20dp"
+
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/Password_EditText"
+        android:id="@+id/loginBtn"
+        ></Button>
+
+
+</RelativeLayout>
